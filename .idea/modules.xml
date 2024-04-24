@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Assignment1Darray/Assignment1Darray.iml" filepath="$PROJECT_DIR$/Assignment1Darray/Assignment1Darray.iml" />
       <module fileurl="file://$PROJECT_DIR$/Assignment2Darray/Assignment2Darray.iml" filepath="$PROJECT_DIR$/Assignment2Darray/Assignment2Darray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchingShortingAndBitManipulation/SearchingInAnArray/SearchingInAnArray.iml" filepath="$PROJECT_DIR$/SearchingShortingAndBitManipulation/SearchingInAnArray/SearchingInAnArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchingShortingAndBitManipulation/SearchingShortingAndBitManipulation.iml" filepath="$PROJECT_DIR$/SearchingShortingAndBitManipulation/SearchingShortingAndBitManipulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dsaPwSkills.iml" filepath="$PROJECT_DIR$/.idea/dsaPwSkills.iml" />
     </modules>
   </component>
