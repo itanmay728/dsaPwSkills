@@ -19,17 +19,17 @@ public class Q2 {
     }
 
     //if array is shorted
-    public static void lastOccurrenceIfArrayIsShorted(int[] array, int target){
-
-        int high = array.length-1;
-        int low = 0;
-
-        while (low <= high){
-
-            if ()
-
-        }
-    }
+//    public static void lastOccurrenceIfArrayIsShorted(int[] array, int target){
+//
+//        int high = array.length-1;
+//        int low = 0;
+//
+//        while (low <= high){
+//
+//            if ()
+//
+//        }
+//    }
     public static void main(String[] args) {
 
         int[] arr = {1 ,1 ,1, 2 ,3 ,4 ,4 ,5 ,6 ,6 ,6, 6};
