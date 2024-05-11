@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Q1 {
 
-    public void indexOfSearchedElement(int arr [], int a){
+    public void indexOfSearchedElement(int[] arr, int a){
 
         int index = -1;
         for (int i = 0; i< arr.length; i++){

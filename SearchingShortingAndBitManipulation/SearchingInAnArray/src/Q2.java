@@ -19,23 +19,31 @@ public class Q2 {
     }
 
     //if array is shorted
-//    public static void lastOccurrenceIfArrayIsShorted(int[] array, int target){
-//
-//        int high = array.length-1;
-//        int low = 0;
-//
-//        while (low <= high){
-//
-//            if ()
-//
-//        }
-//    }
+    public static void lastOccurrenceIfArrayIsShorted(int[] array, int target){
+
+        int high = array.length-1;
+        int low = 0;
+        int ans = -1;
+
+        while (low <= high){
+
+            int mid = low + (high - low)/2;
+           if (array[mid] == target){
+               ans = mid;
+               low = mid+1;
+           } else if (array[mid] > target) {
+               high = mid-1;
+           }else low = mid + 1;
+
+        }
+        System.out.println(ans);
+    }
     public static void main(String[] args) {
 
         int[] arr = {1 ,1 ,1, 2 ,3 ,4 ,4 ,5 ,6 ,6 ,6, 6};
        int  target = 4;
 
-        lastOccurrence(arr, target);
-
+        //lastOccurrence(arr, target);
+        lastOccurrenceIfArrayIsShorted(arr, target);
     }
 }
